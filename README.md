@@ -1,0 +1,1 @@
+I'm making a fraud detection systems by utilizing Confluent Cloud that streams financial transactions through Apache Flink SQL to detect high value anomalies, geographic imposibilities and velocity breaches.
