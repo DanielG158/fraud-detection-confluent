@@ -1,0 +1,19 @@
+{
+  "type": "record",
+  "name": "Transaction",
+  "namespace": "com.frauddetection",
+  "fields": [
+    {"name": "transaction_id", "type": "string"},
+    {"name": "user_id", "type": "string"},
+    {"name": "amount", "type": "double"},
+    {"name": "currency", "type": "string", "default": "USD"},
+    {"name": "merchant", "type": "string"},
+    {"name": "merchant_category", "type": "string"},
+    {"name": "location_city", "type": "string"},
+    {"name": "location_country", "type": "string"},
+    {"name": "timestamp_ms", "type": "long"},
+    {"name": "card_last4", "type": "string"},
+    {"name": "is_online", "type": "boolean"},
+    {"name": "device_fingerprint", "type": ["null", "string"], "default": null}
+  ]
+}
